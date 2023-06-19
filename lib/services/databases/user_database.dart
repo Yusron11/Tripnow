@@ -1,10 +1,10 @@
 import 'dart:io';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:dahar/models/dahar_user.dart';
-import 'package:dahar/services/auth.dart';
-import 'package:dahar/services/databases/produk_database.dart';
-import 'package:dahar/services/databases/toko_database.dart';
+import 'package:tripnow/models/tripnow_user.dart';
+import 'package:tripnow/services/auth.dart';
+import 'package:tripnow/services/databases/produk_database.dart';
+import 'package:tripnow/services/databases/wisata_database.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:uuid/uuid.dart';
 

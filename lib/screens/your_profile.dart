@@ -1,15 +1,14 @@
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:dahar/models/auth_user.dart';
-import 'package:dahar/models/dahar_user.dart';
-import 'package:dahar/screens/menu_toko.dart';
-import 'package:dahar/services/databases/user_database.dart';
+import 'package:tripnow/models/auth_user.dart';
+import 'package:tripnow/models/tripnow_user.dart';
+import 'package:tripnow/services/databases/user_database.dart';
 import 'package:flutter/material.dart';
-import 'package:dahar/global_styles.dart';
-import 'package:dahar/components/back_appbar.dart';
-import 'package:dahar/components/navbar.dart';
-import 'package:dahar/services/auth.dart';
+import 'package:tripnow/global_styles.dart';
+import 'package:tripnow/components/back_appbar.dart';
+import 'package:tripnow/components/navbar.dart';
+import 'package:tripnow/services/auth.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:provider/provider.dart';
 

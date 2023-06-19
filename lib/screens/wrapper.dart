@@ -1,10 +1,10 @@
-import 'package:dahar/global_styles.dart';
+import 'package:tripnow/global_styles.dart';
 import 'package:flutter/material.dart';
-import 'package:dahar/screens/auth/authenticate.dart';
-import 'package:dahar/screens/home.dart';
+import 'package:tripnow/screens/auth/authenticate.dart';
+import 'package:tripnow/screens/home.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:provider/provider.dart';
-import 'package:dahar/models/auth_user.dart';
+import 'package:tripnow/models/auth_user.dart';
 
 class Wrapper extends StatefulWidget {
   const Wrapper({Key? key}) : super(key: key);

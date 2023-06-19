@@ -8,8 +8,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_polyline_points/flutter_polyline_points.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'dart:math';
-import 'package:dahar/global_styles.dart';
-import 'package:dahar/components/back_appbar.dart';
+import 'package:tripnow/global_styles.dart';
+import 'package:tripnow/components/back_appbar.dart';
 
 class PosisiToko extends StatefulWidget {
   final double tokoLong, tokoLat, userLong, userLat;

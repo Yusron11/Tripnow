@@ -1,7 +1,7 @@
-import 'package:dahar/services/databases/toko_database.dart';
-import 'package:dahar/services/databases/user_database.dart';
+import 'package:tripnow/services/databases/wisata_database.dart';
+import 'package:tripnow/services/databases/user_database.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:dahar/models/auth_user.dart';
+import 'package:tripnow/models/auth_user.dart';
 import 'package:geolocator/geolocator.dart';
 
 class AuthService {

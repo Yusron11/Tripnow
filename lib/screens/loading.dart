@@ -1,6 +1,6 @@
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:flutter/material.dart';
-import 'package:dahar/global_styles.dart';
+import 'package:tripnow/global_styles.dart';
 
 class Loading extends StatelessWidget {
   const Loading({Key? key}) : super(key: key);

@@ -1,20 +1,18 @@
 import 'dart:developer';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:dahar/models/auth_user.dart';
-import 'package:dahar/models/toko.dart';
-import 'package:dahar/screens/detail_toko.dart';
-import 'package:dahar/screens/item_detail.dart';
-import 'package:dahar/screens/maps/networking.dart';
-import 'package:dahar/services/databases/toko_database.dart';
-import 'package:dahar/services/toko_distance.dart';
+import 'package:tripnow/models/auth_user.dart';
+import 'package:tripnow/models/wisata.dart';
+import 'package:tripnow/screens/detail_wisata.dart';
+import 'package:tripnow/screens/maps/networking.dart';
+import 'package:tripnow/services/databases/wisata_database.dart';
+import 'package:tripnow/services/toko_distance.dart';
 import 'package:flutter/material.dart';
-import 'package:dahar/global_styles.dart';
-import 'package:dahar/components/navbar.dart';
-import 'package:dahar/services/database.dart';
+import 'package:tripnow/global_styles.dart';
+import 'package:tripnow/components/navbar.dart';
 import 'package:provider/provider.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:dahar/models/produk.dart';
+import 'package:tripnow/models/produk.dart';
 import 'package:geolocator/geolocator.dart';
 
 class Home extends StatelessWidget {

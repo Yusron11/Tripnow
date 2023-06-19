@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'networking.dart';
-import 'package:dahar/global_styles.dart';
+import 'package:tripnow/global_styles.dart';
 
 class PosisiToko extends StatefulWidget {
   final startLat, startLng, distance, toko;

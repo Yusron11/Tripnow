@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:dahar/global_styles.dart';
+import 'package:tripnow/global_styles.dart';
 
 class NavBar extends StatelessWidget {
   const NavBar({Key? key}) : super(key: key);

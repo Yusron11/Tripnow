@@ -1,6 +1,6 @@
 import 'dart:async';
 // import 'package:dahar/screens/wrapper.dart';
-import 'package:dahar/global_styles.dart';
+import 'package:tripnow/global_styles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 

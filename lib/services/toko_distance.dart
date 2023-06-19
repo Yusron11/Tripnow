@@ -1,4 +1,4 @@
-import 'package:dahar/screens/maps/networking.dart';
+import 'package:tripnow/screens/maps/networking.dart';
 import 'package:geolocator/geolocator.dart';
 
 class TokoDistance {

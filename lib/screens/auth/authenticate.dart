@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:dahar/screens/auth/login.dart';
-import 'package:dahar/screens/auth/register.dart';
+import 'package:tripnow/screens/auth/login.dart';
+import 'package:tripnow/screens/auth/register.dart';
 
 class Authenticate extends StatefulWidget {
   const Authenticate({Key? key}) : super(key: key);

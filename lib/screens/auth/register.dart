@@ -1,7 +1,7 @@
-import 'package:dahar/global_styles.dart';
+import 'package:tripnow/global_styles.dart';
 import 'package:flutter/material.dart';
-import 'package:dahar/services/auth.dart';
-import 'package:dahar/screens/loading.dart';
+import 'package:tripnow/services/auth.dart';
+import 'package:tripnow/screens/loading.dart';
 
 class Register extends StatefulWidget {
   final Function toggleView;

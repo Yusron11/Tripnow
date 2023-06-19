@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'package:dahar/global_styles.dart';
+import 'package:tripnow/global_styles.dart';
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
 

@@ -1,13 +1,13 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:dahar/models/produk.dart';
-import 'package:dahar/screens/maps/posisi_toko.dart';
-import 'package:dahar/services/databases/produk_database.dart';
+import 'package:tripnow/models/produk.dart';
+import 'package:tripnow/screens/maps/posisi_wisata.dart';
+import 'package:tripnow/services/databases/produk_database.dart';
 import 'package:flutter/material.dart';
-import 'package:dahar/global_styles.dart';
-import 'package:dahar/components/back_appbar.dart';
+import 'package:tripnow/global_styles.dart';
+import 'package:tripnow/components/back_appbar.dart';
 import 'package:geolocator/geolocator.dart';
 import 'dart:math';
-import 'package:dahar/screens/maps/networking.dart';
+import 'package:tripnow/screens/maps/networking.dart';
 import 'package:provider/provider.dart';
 
 class DetailToko extends StatefulWidget {

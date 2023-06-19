@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:dahar/global_styles.dart';
+import 'package:tripnow/global_styles.dart';
 
 class BackAppBar extends StatelessWidget {
   final String title;
